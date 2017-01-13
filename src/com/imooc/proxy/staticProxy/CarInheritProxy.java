@@ -1,4 +1,4 @@
-package com.imooc.proxy.common;
+package com.imooc.proxy.staticProxy;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.imooc.proxy.jdk;
+package com.imooc.proxy.staticProxy;
 
 import java.util.Random;
 
@@ -10,8 +10,8 @@ public class Car implements Moveable {
 	@Override
 	public void move() {
 		
-		long starttime = System.currentTimeMillis();
-		System.out.println("[Car]汽车开始行驶......");
+//		long starttime = System.currentTimeMillis();
+//		System.out.println("[Car]汽车开始行驶......");
 		
 		//实现开车
 		try {
@@ -21,8 +21,8 @@ public class Car implements Moveable {
 			e.printStackTrace();
 		}
 		
-		long endtime = System.currentTimeMillis();
-		System.out.println("[Car]汽车行结束行使...... 汽车行驶时间：" + (endtime - starttime) + "毫秒！");
+//		long endtime = System.currentTimeMillis();
+//		System.out.println("[Car]汽车行结束行使...... 汽车行驶时间：" + (endtime - starttime) + "毫秒！");
 	}
 
 }

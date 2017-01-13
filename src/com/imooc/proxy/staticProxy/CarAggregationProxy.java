@@ -1,4 +1,4 @@
-package com.imooc.proxy.common;
+package com.imooc.proxy.staticProxy;
 
 /**
  * 通过聚合的方式实现静态代理
